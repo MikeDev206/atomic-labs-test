@@ -10,9 +10,9 @@ const validationsForm = (form) => {};
 const ContactForm = () => {
 	const {
 		form,
-		errors,
-		loading,
-		response,
+		// errors,
+		// loading,
+		// response,
 		handleChange,
 		handleBlur,
 		handleSubmit,
