@@ -1,0 +1,89 @@
+// TABLET
+
+@media (min-width: 641px) and (max-width: 768px) {
+	// UNIVERSALES
+	.section-title {
+		font-size: 24px;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.part-of-button {
+		margin: 15px auto;
+		font-size: 18px;
+		padding: 3px 20px;
+	}
+
+	// hero
+
+	.hero-section {
+		padding: 10px;
+
+		.hero-body {
+			justify-content: space-between;
+
+			.hero-img {
+				padding: 1em auto;
+				img {
+					height: 200px;
+				}
+			}
+
+			.hero-text {
+				flex-wrap: nowrap;
+				width: 100%;
+				padding: 0;
+			}
+		}
+
+		.scroll {
+			button {
+				padding: 1em 0;
+				img {
+					height: 35px;
+				}
+				p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	// dream job
+	.dream-job {
+		img {
+			width: 100%;
+		}
+
+		.process-dream-team {
+			flex-direction: column;
+			img {
+				transform: rotate(90deg);
+			}
+		}
+	}
+
+	// why us
+	.why-cards {
+		flex-direction: column;
+		.why-card {
+			flex-direction: column;
+			width: 100%;
+			img {
+				width: 220px;
+			}
+		}
+	}
+
+	// footer
+
+	.footer-section {
+		flex-direction: column;
+		height: auto;
+		margin: auto;
+
+		.privacy {
+			flex-direction: column;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+// TABLET PRO
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	// UNIVERSALES
+
+	.section-title {
+		font-size: 30px;
+		text-align: center;
+		padding: 20px 20px 0 20px;
+	}
+
+	.part-of-button {
+		margin: 18px auto;
+		font-size: 20px;
+		padding: 3.5px 20px;
+	}
+
+	// hero
+
+	.hero-section {
+		padding: 20px;
+
+		.hero-body {
+			.hero-img {
+				img {
+					height: 250px;
+				}
+			}
+
+			.hero-text {
+				flex-wrap: nowrap;
+				width: 100%;
+				padding: 0;
+			}
+		}
+	}
+
+
+	// dream job
+	.dream-job {
+		img {
+			width: 100%;
+		}
+	}
+
+	// why us
+	.why-cards {
+		flex-direction: column;
+		.why-card {
+			
+			width: 100%;
+			img {
+				width: 240px;
+			}
+		}
+	}
+}

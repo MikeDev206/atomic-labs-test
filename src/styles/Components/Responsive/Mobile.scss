@@ -1,0 +1,96 @@
+// MOBILE
+@media (min-width: 375px) and (max-width: 640px) {
+	// Universal styles
+	.section-title {
+		font-size: 20px;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.part-of-button {
+		margin: 10px auto;
+		font-size: 16px;
+		padding: 2.5px 20px;
+	}
+
+	// hero
+
+	.hero-section {
+		padding: 0;
+
+		.navigation-logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 10px auto;
+
+			img {
+				width: 150px;
+				transform: translate(10px, 10px);
+			}
+		}
+
+		.hero-body {
+			flex-direction: column;
+			.hero-img {
+				display: none;
+			}
+
+			.hero-text {
+				flex-wrap: nowrap;
+				width: 100%;
+				padding: 0;
+			}
+		}
+
+		.scroll {
+			button {
+				padding: 1em 0;
+				img {
+					height: 30px;
+				}
+				p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	// dream job
+	.dream-job {
+		img {
+			width: 100%;
+		}
+
+		.process-dream-team {
+			flex-direction: column;
+			img {
+				transform: rotate(90deg);
+			}
+		}
+	}
+
+	// why us
+	.why-cards {
+		flex-direction: column;
+		.why-card {
+			flex-wrap: nowrap;
+			width: 100%;
+			img {
+				width: 200px;
+			}
+		}
+	}
+
+	// footer
+
+	.footer-section {
+		flex-direction: column;
+		height: auto;
+		margin: auto;
+
+		.privacy {
+			flex-direction: column;
+		}
+	}
+}

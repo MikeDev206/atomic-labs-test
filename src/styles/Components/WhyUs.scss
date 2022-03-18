@@ -1,0 +1,56 @@
+// Why us section
+
+.why-us {
+	background: linear-gradient(to bottom, transparent 0%, #00609c 50%, #00609c 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2em auto 0 auto;
+	padding-bottom: 3em;
+
+	h1 {
+		text-align: center;
+		margin: 1em auto;
+	}
+
+	.why-cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 1280px;
+		width: 100%;
+		height: auto;
+		margin: 3em auto 2em;
+		color: #fff;
+
+		.img-title {
+			width: 270px;
+			height: auto;
+		}
+
+		.why-card {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+
+			ul li {
+				display: flex;
+				align-items: center;
+				img {
+					// margin: ;
+					width: 20px;
+					height: 20px;
+				}
+
+				p {
+					font-size: 18px;
+					margin-top: 0;
+					margin-bottom: 1rem;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}

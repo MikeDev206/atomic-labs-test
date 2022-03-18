@@ -1,0 +1,30 @@
+// DESKTOP
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	// UNIVERSALES
+
+	.section-title {
+		font-size: 35px;
+		text-align: justify;
+		padding: 20px 0px 0 30px;
+	}
+
+	.part-of-button {
+		margin: 20px auto;
+	}
+
+	.hero-section {
+		.hero-body {
+			.hero-img {
+				img {
+					height: 300px;
+				}
+			}
+
+			.hero-text {
+				width: 100%;
+				padding: 0;
+			}
+		}
+	}
+}
